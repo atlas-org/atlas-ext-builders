@@ -19,5 +19,8 @@ To pick-up an already configured toolchain (_e.g._ ``LCG-65``):
 $ cd atlas-ext-builders
 $ hwaf init
 $ hwaf setup -p /path/to/installed/lcg-65
-$ hwaf configure build
+$ hwaf configure
+# NOTE: hwaf shell won't be needed in a more recent hwaf version
+$ hwaf shell
+$ hwaf build
 ```
