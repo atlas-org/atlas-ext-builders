@@ -40,8 +40,8 @@ diff -urN bzip2-1.0.6-orig/Makefile-libbz2_so bzip2-1.0.6/Makefile-libbz2_so
  	$(CC) $(CFLAGS) -o bzip2-shared bzip2.c libbz2.so.1.0.6
  	rm -f libbz2.so.1.0
  	ln -s libbz2.so.1.0.6 libbz2.so.1.0
-+	ln -s libbz2.so.1.0   libbz2.so.1
-+	ln -s libbz2.so.1     libbz2.so
++	ln -s libbz2.so.1.0.6 libbz2.so.1
++	ln -s libbz2.so.1.0.6 libbz2.so
  
  clean: 
  	rm -f $(OBJS) bzip2.o libbz2.so.1.0.6 libbz2.so.1.0 bzip2-shared
