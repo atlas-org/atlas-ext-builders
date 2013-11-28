@@ -24,3 +24,16 @@ $ hwaf configure
 $ hwaf shell
 $ hwaf build
 ```
+
+### Profile for ASG
+
+To build the externals for ``ASG`` one can instead run the
+``suite-asg`` suite:
+
+```sh
+$ git clone git://github.com/atlas-org/atlasext-builders
+$ cd atlasext-builders
+$ hwaf init && hwaf setup
+$ hwaf configure --hwaf-worch-config=suite-asg.cfg
+$ hwaf
+```
